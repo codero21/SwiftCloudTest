@@ -22,6 +22,7 @@
 		E357DE811F0B772100E3054D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E357DE841F0B772100E3054D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E357DE861F0B772100E3054D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E357DE8C1F0B7B7F00E3054D /* SwiftCloudTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftCloudTest.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +55,7 @@
 		E357DE791F0B772100E3054D /* SwiftCloudTest */ = {
 			isa = PBXGroup;
 			children = (
+				E357DE8C1F0B7B7F00E3054D /* SwiftCloudTest.entitlements */,
 				E357DE7A1F0B772100E3054D /* AppDelegate.swift */,
 				E357DE7C1F0B772100E3054D /* ViewController.swift */,
 				E357DE7E1F0B772100E3054D /* Main.storyboard */,
@@ -98,6 +100,14 @@
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = D4T692RC82;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 0;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -263,6 +273,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SwiftCloudTest/SwiftCloudTest.entitlements;
 				DEVELOPMENT_TEAM = D4T692RC82;
 				INFOPLIST_FILE = SwiftCloudTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -276,6 +287,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SwiftCloudTest/SwiftCloudTest.entitlements;
 				DEVELOPMENT_TEAM = D4T692RC82;
 				INFOPLIST_FILE = SwiftCloudTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
