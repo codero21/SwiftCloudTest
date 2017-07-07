@@ -12,6 +12,7 @@
 		E357DE801F0B772100E3054D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E357DE7E1F0B772100E3054D /* Main.storyboard */; };
 		E357DE821F0B772100E3054D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E357DE811F0B772100E3054D /* Assets.xcassets */; };
 		E357DE851F0B772100E3054D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E357DE831F0B772100E3054D /* LaunchScreen.storyboard */; };
+		E357DE8E1F0F5C2A00E3054D /* SwiftCloudTestDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = E357DE8D1F0F5C2A00E3054D /* SwiftCloudTestDocument.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		E357DE841F0B772100E3054D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E357DE861F0B772100E3054D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E357DE8C1F0B7B7F00E3054D /* SwiftCloudTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftCloudTest.entitlements; sourceTree = "<group>"; };
+		E357DE8D1F0F5C2A00E3054D /* SwiftCloudTestDocument.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftCloudTestDocument.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				E357DE8C1F0B7B7F00E3054D /* SwiftCloudTest.entitlements */,
 				E357DE7A1F0B772100E3054D /* AppDelegate.swift */,
 				E357DE7C1F0B772100E3054D /* ViewController.swift */,
+				E357DE8D1F0F5C2A00E3054D /* SwiftCloudTestDocument.swift */,
 				E357DE7E1F0B772100E3054D /* Main.storyboard */,
 				E357DE811F0B772100E3054D /* Assets.xcassets */,
 				E357DE831F0B772100E3054D /* LaunchScreen.storyboard */,
@@ -147,6 +150,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E357DE8E1F0F5C2A00E3054D /* SwiftCloudTestDocument.swift in Sources */,
 				E357DE7D1F0B772100E3054D /* ViewController.swift in Sources */,
 				E357DE7B1F0B772100E3054D /* AppDelegate.swift in Sources */,
 			);

@@ -9,6 +9,18 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    // MARK: @IBOutlets
+    
+    @IBOutlet weak var serviceStatus: UILabel!
+    @IBOutlet weak var documentContentView: UITextView!
+    
+    
+    // MARK: @IBActions
+    
+    @IBAction func onSaveDocument(_ sender: UIButton) {
+    }
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
